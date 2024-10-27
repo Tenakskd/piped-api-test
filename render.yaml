@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: punycode-us
+    name: punycode-us-xmah
     env: python
     region: Oregon
     plan: free
