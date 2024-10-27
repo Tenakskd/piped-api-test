@@ -11,7 +11,32 @@ from cache import cache
 
 max_api_wait_time = 3
 max_time = 10
-apis = [r"https://invidious.qwik.space",r"https://viewtube.io",r"https://invidious.varis.social",r"https://monocles.live",r"https://youchu.be",r"https://youtube.alt.tyil.nl",r"https://invidious.rocks",r"https://invi.susurrando.com",r"https://invidious.0011.lt",r"https://subscriptions.gir.st",r"https://piped.werry.ovh",r"https://ade2ab15.piped.pages.dev",r"iteroni.com",r"https://weblate.piped.pages.dev",r"https://a2879ef1.piped.pages.dev",r"http://invidious.materialio.us/",r"https://yt.vern.cc",r"http://invidious.perennialte.ch/",r"http://yewtu.be/",r"https://iv.datura.network/",r"https://invidious.private.coffee/",r"https://invidious.protokolla.fi/",r"https://invidious.perennialte.ch/",r"https://yt.cdaut.de/",r"https://invidious.materialio.us/",r"https://yewtu.be/",r"https://invidious.fdn.fr/",r"https://inv.tux.pizza/",r"https://invidious.privacyredirect.com/",r"https://invidious.drgns.space/",r"https://vid.puffyan.us",r"https://invidious.jing.rocks/",r"https://youtube.076.ne.jp/",r"https://vid.puffyan.us/",r"https://inv.riverside.rocks/",r"https://invidio.xamh.de/",r"https://y.com.sb/",r"https://invidious.sethforprivacy.com/",r"https://invidious.tiekoetter.com/",r"https://inv.bp.projectsegfau.lt/",r"https://inv.vern.cc/",r"https://invidious.nerdvpn.de/",r"https://inv.privacy.com.de/",r"https://invidious.rhyshl.live/",r"https://invidious.slipfox.xyz/",r"https://invidious.weblibre.org/",r"https://invidious.namazso.eu/",r"https://invidious.jing.rocks",r"https://invidious.baczek.me",r"https://invidious.flokinet.to",r"https://invidious.zapashcanon.fr",r"https://nyc1.iv.ggtyler.dev",r"https://yt.artemislena.eu",r"https://yt.funami.tech",r"https://youtube.privacyplz.org",r"https://invidious.pcgamingfreaks.at",r"https://invidious.ethibox.fr",r"https://monocles.live",r"https://tube.netflux.io",r"https://yt.yoc.ovh",r"https://invidious.varishangout.net",r"https://iteroni.com",r"https://subscriptions.gir.st",r"https://poketube.fun",r"https://yt.thechangebook.org",r"https://vro.omcat.info",r"https://piped.video",r"litetube.glitch.me",r"litetube.lol",r"https://nuv3d-7iaaa-aaaan-qahma-cai.raw.ic0.app",r"https://piped.adminforge.de",r"https://piped.yt",r"https://piped.kavin.rocks",r"https://nyc1.pi.ggtyler.dev",r"https://e1cd6428.piped.pages.dev",r"https://cf.piped.video",r"https://do.piped.video",r"https://az.piped.video"]
+apis [
+r"https://piped.video/",
+r"https://nuv3d-7iaaa-aaaan-qahma-cai.ic0.app/",
+r"https://piped.yt/trending",
+r"https://cf.piped.video/",
+r"https://do.piped.video/",
+r"https://az.piped.video/",
+r"https://fl.piped.video/",
+r"https://pipedapi.kavin.rocks",
+r"https://pipedapi.tokhmi.xyz/",
+r"https://pipedapi.syncpundit.io/",
+r"https://pipedapi.moomoo.me/",
+r"https://api.piped.privacydev.net/",
+r"https://pipedapi.in.projectsegfau.lt/",
+r"https://pipedapi.us.projectsegfau.lt/",
+r"https://ytapi.dc09.ru/",
+r"https://pipedapi.leptons.xyz/",
+r"https://weblate.piped.pages.dev/",
+r"https://c2c07ab4.piped.pages.dev/",
+r"https://d67e1c52.piped.pages.dev/",
+r"https://renovate-vue-i18n-10-x.piped.pages.dev/",
+r"https://4088b78c.piped.pages.dev/",
+r"https://renovate-intlify-unplugin-vu-w7y3.piped.pages.dev/",
+r"https://6f3891a6.piped.pages.dev/",
+r"https://renovate-vue-i18n-9-x.piped.pages.dev/",
+r"https://d3ef1ec4.piped.pages.dev/" ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip
 version = "1.0"
 
