@@ -13,6 +13,8 @@ max_api_wait_time = 3
 max_time = 10
 apis [
 r"https://faa4435b.piped.pages.dev/",
+r"https://d67e1c52.piped.pages.dev/",
+r"https://4088b78c.piped.pages.dev/",
 r"https://piped.video/",
 r"https://nuv3d-7iaaa-aaaan-qahma-cai.ic0.app/",
 r"https://piped.yt/trending",
