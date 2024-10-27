@@ -36,7 +36,8 @@ r"https://4088b78c.piped.pages.dev/",
 r"https://renovate-intlify-unplugin-vu-w7y3.piped.pages.dev/",
 r"https://6f3891a6.piped.pages.dev/",
 r"https://renovate-vue-i18n-9-x.piped.pages.dev/",
-r"https://d3ef1ec4.piped.pages.dev/" ]
+r"https://d3ef1ec4.piped.pages.dev/"
+]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip
 version = "1.0"
 
